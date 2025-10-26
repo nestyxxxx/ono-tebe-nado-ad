@@ -1,4 +1,3 @@
-/* Общие стили для шапки */
 .header {
   display: grid;
   align-items: center;
@@ -51,7 +50,6 @@
   font-style: normal;
 }
 
-/* Стили для секции cover */
 .cover {
   position: relative;
   background-image: url(../images/cover.jpg);
@@ -81,7 +79,7 @@
   flex-direction: column;
   padding: 165px 50px 147px;
   gap: 20px;
-  z-index: 1; /* Чтобы заголовок был поверх оверлея */
+  z-index: 1; 
 }
 
 .cover_title span {
@@ -94,17 +92,16 @@
 .text_cover {
   display: block;
   line-height: 125px;
-  letter-spacing: 0; /* Базовый межбуквенный интервал */
+  letter-spacing: 0; 
 }
-
 
 .text_cover .no_spacing_ok,
 .text_cover .no_spacing {
-  letter-spacing: 0; /* Сброс интервала для букв */
+  letter-spacing: 0; 
 }
 
 .text_cover .half_spacing {
-  letter-spacing: 30px; /* Меньший интервал для буквы "д" */
+  letter-spacing: 30px; 
 }
 
 .text_center {
@@ -143,7 +140,7 @@
   font-weight: 500;
   text-align: center;
   text-transform: uppercase;
-  cursor: pointer; /* Улучшает UX для кнопки */
+  cursor: pointer;
 }
 .title_lots {
   padding-top: 179px;
@@ -161,10 +158,10 @@
   flex-wrap: wrap;
   list-style-type: none;
   gap: 25px;
-  justify-content: flex-start; /* указал start */ 
+  justify-content: flex-start; 
   padding: 0; 
   margin: 0 auto;
-  margin-left: 20px; /* левый отступ чтобы совпадало с макетом */ 
+  margin-left: 20px; 
 }
 
 .card_lots {
