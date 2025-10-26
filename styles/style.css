@@ -142,6 +142,7 @@
   text-transform: uppercase;
   cursor: pointer;
 }
+
 .title_lots {
   padding-top: 179px;
   padding-bottom: 26px;
@@ -150,7 +151,6 @@
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
-  
 }
 
 .container_lots {
